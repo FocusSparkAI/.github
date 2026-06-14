@@ -1,47 +1,97 @@
-# 🚀 FocusSpark
+<div align="center">
+  <img src="https://raw.githubusercontent.com/FocusSparkAI/.github/main/assets/logo.png" width="100" alt="FocusSpark Logo">
 
-**AI-powered focused learning, smart planning, and mindful productivity.**
+# FocusSpark
 
-FocusSpark is an intelligent study platform designed to help students stay focused, manage time effectively, and learn more efficiently through artificial intelligence, behavioral science, and gamification.
+### AI-Powered Focused Learning, Smart Planning, and Mindful Productivity
 
-## ✨ Core Features
+FocusSpark is an intelligent study platform designed to help students stay focused, manage time effectively, and learn more efficiently through artificial intelligence, behavioral science, and productivity techniques.
 
-* 🎯 Real-Time Focus Detection
-* 😊 Emotion-Aware Interface
-* ⏱️ Adaptive Pomodoro System
-* 🤖 AI Study Assistant
-* 📚 AI-Generated Flashcards & Quizzes
-* 📈 Analytics & Progress Tracking
-* 🏆 Streaks, Badges & Achievements
-* 🔔 Smart Notifications & Focus Alerts
+Developed as a **Final Year Project (BS Software Engineering)** at the **University of Central Punjab (UCP)**.
 
-## 📦 Repositories
+</div>
 
-### ⚙️ FocusSpark-Backend
+---
 
-FastAPI backend powering authentication, analytics, AI services, focus tracking, flashcards, quizzes, notifications, and reporting.
+## Overview
 
-### 🌐 FocusSpark-Frontend
+FocusSpark consists of three integrated applications that work together to provide a complete productivity and learning ecosystem.
 
-React web application providing dashboards, analytics, reports, achievements, goals, profile management, and settings.
+| Repository                                                                   | Description                                                                                                                                        |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [focusspark-backend](https://github.com/FocusSparkAI/focusspark-backend)     | FastAPI backend powering authentication, analytics, AI services, focus tracking, notifications, reports, flashcards, quizzes, and data management. |
+| [focusspark-frontend](https://github.com/FocusSparkAI/focusspark-frontend)   | React web application providing dashboards, analytics, reports, achievements, profile management, goals, and settings.                             |
+| [focusspark-extension](https://github.com/FocusSparkAI/focusspark-extension) | Chrome Extension workspace for focused studying, Pomodoro sessions, AI tutoring, flashcards, quizzes, and distraction monitoring.                  |
 
-### 🧩 FocusSpark-Extension
+---
 
-Chrome Extension workspace for focused studying, Pomodoro sessions, AI tutoring, flashcards, quizzes, and distraction monitoring.
+## Core Features
 
-## 🛠️ Technology Stack
+### Focus & Productivity
+
+* Adaptive Pomodoro System
+* Real-Time Focus Monitoring
+* Distraction Detection & Alerts
+* Strict Focus Mode
+* Goal Tracking & Study Planning
+
+### Artificial Intelligence
+
+* AI Study Assistant
+* AI-Powered Learning Support
+* Document-Based Learning
+* Flashcard Generation
+* Quiz Generation
+
+### Analytics & Insights
+
+* Study Analytics Dashboard
+* Focus Tracking Reports
+* Progress Monitoring
+* Achievement System
+* Streak Tracking
+
+### Personalization
+
+* Emotion-Aware Experience
+* User Preferences & Settings
+* Notification Management
+* Academic Focus Customization
+
+---
+
+## Technology Stack
+
+### Frontend
 
 * React.js
+* Vite
+* Tailwind CSS
+
+### Backend
+
 * FastAPI
+* Python
+* SQLModel
 * PostgreSQL
+
+### Artificial Intelligence
+
 * MediaPipe
 * DeepFace
 * OpenAI
 * Gemini
-* Docker
-* Vercel
 
-## 👥 Team
+### Infrastructure
+
+* Docker
+* GitHub Actions
+* Vercel
+* Neon PostgreSQL
+
+---
+
+## Team
 
 | Member              | Role                             |
 | ------------------- | -------------------------------- |
@@ -50,12 +100,18 @@ Chrome Extension workspace for focused studying, Pomodoro sessions, AI tutoring,
 | Abdul Hanan         | Full Stack Developer             |
 | M. Hamza Naseer     | UI/UX Designer                   |
 
-## 🎓 Academic Project
+---
 
-Developed as a **Final Year Project (BS Software Engineering)** at the **University of Central Punjab (UCP)**.
+## Academic Information
 
-FocusSpark combines artificial intelligence, focus monitoring, active learning, and productivity techniques into a single platform designed for modern students.
+**Project Title:** FocusSpark – AI Chrome Extension for Focused Learning, Smart Planning and Mindful Productivity
+
+**Program:** BS Software Engineering
+
+**Institution:** University of Central Punjab (UCP)
+
+**Supervisor:** Dr. Ali Saeed
 
 ---
 
-**FocusSparkAI** — Building intelligent tools for focused learning and productivity.
+For installation instructions, development workflows, deployment guides, and environment configuration, please refer to the README documentation inside each repository.
