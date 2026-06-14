@@ -114,4 +114,4 @@ FocusSpark consists of three integrated applications that work together to provi
 
 ---
 
-For installation instructions, development workflows, deployment guides, and environment configuration, please refer to the README documentation inside each repository.
+For detailed technical documentation, setup instructions, and development guides, please visit the respective repository documentation listed above.
